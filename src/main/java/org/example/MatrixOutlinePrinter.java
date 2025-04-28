@@ -1,5 +1,9 @@
 package org.example;
-
+//------------------------------------------------------
+// Lab Assignment 1
+// Written by: Anthony Jaimes 2018391
+// For SE350 Section (602) – Spring 2025
+//------------------------------------------------------
 public class MatrixOutlinePrinter implements MatrixPrinter{
     public String printer(Matrix matrix) {
         StringBuilder outline = new StringBuilder();

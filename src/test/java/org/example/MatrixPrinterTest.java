@@ -3,7 +3,11 @@ package org.example;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
-
+//------------------------------------------------------
+// Lab Assignment 1
+// Written by: Anthony Jaimes 2018391
+// For SE350 Section (602) – Spring 2025
+//------------------------------------------------------
 class MatrixPrinterTest {
 
 
