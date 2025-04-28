@@ -16,7 +16,7 @@ public class MatrixOutlinePrinter implements MatrixPrinter{
 
         for (int i = 0; i < row; i++) {
             outline.append('|');
-            outline.append(rowPrinter(matrix));
+            outline.append(rowPrinter(matrix,i));
             outline.append('|');
             outline.append("\n");
         }
@@ -29,7 +29,7 @@ public class MatrixOutlinePrinter implements MatrixPrinter{
 
         return outline.toString();
     }
-    protected String rowPrinter(Matrix matrix) {
+    protected String rowPrinter(Matrix matrix, int index) {
         int colum = matrix.columCount();
         StringBuilder content  = new StringBuilder();
         for (int i = 0; i < colum; i++) {
