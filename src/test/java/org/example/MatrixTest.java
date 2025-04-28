@@ -5,7 +5,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class MatrixTest {
 
     @org.junit.jupiter.api.Test
-    void testMatrix() {
+    void testMatrixConstructor() {
         assertThrows(IllegalArgumentException.class,
                 () -> new Matrix(0, 6));
     }
